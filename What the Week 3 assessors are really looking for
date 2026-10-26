@@ -1,0 +1,13 @@
+Dynamic JSON Data Source
+[
+  {
+    "title": "Digital Strategy Associate Internship",
+    "duration": "6 Weeks",
+    "scholarship": "$1,000"
+  },
+  {
+    "title": "Global Learning Innovation Associate",
+    "duration": "8 Weeks",
+    "scholarship": "$1,000"
+  }
+]
