@@ -1,0 +1,40 @@
+Program Model (program.dart)
+
+This model represents each program in the app.
+class Program {
+  final String title;
+  final String description;
+  final String duration;
+  final String scholarship;
+  final List<String> skills;
+
+  Program({
+    required this.title,
+    required this.description,
+    required this.duration,
+    required this.scholarship,
+    required this.skills,
+  });
+
+  factory Program.fromJson(
+      Map<String, dynamic> json) {
+    return Program(
+      title: json['title'],
+      description: json['description'],
+      duration: json['duration'],
+      scholarship: json['scholarship'],
+      skills:
+          List<String>.from(json['skills']),
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'title': title,
+      'description': description,
+      'duration': duration,
+      'scholarship': scholarship,
+      'skills': skills,
+    };
+  }
+}
