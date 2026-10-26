@@ -1,0 +1,73 @@
+Scaffold(
+  backgroundColor: const Color(0xFFF8F9FD),
+  body: SingleChildScrollView(
+    child: Padding(
+      padding: const EdgeInsets.all(20),
+      child: Column(
+        children: [
+
+          // Logo + Banner (same as Figure 1)
+
+          const SizedBox(height: 40),
+
+          Row(
+            children: [
+
+              Column(
+                children: [
+
+                  Container(width: 24,height: 3,color: Color(0xFFFF6A3D)),
+                  SizedBox(height: 3),
+                  Container(width: 34,height: 3,color: Color(0xFFFF6A3D)),
+                  SizedBox(height: 3),
+                  Container(width: 44,height: 3,color: Color(0xFFFF6A3D)),
+                ],
+              ),
+
+              SizedBox(width: 4),
+
+              Text(
+                "Excelerate",
+                style: TextStyle(
+                  fontSize: 32,
+                  color: Color(0xFFE91E63),
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+
+          SizedBox(height: 30),
+
+          Container(
+            height: 120,
+            decoration: BoxDecoration(
+              color: Colors.grey.shade300,
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+
+          SizedBox(height: 15),
+
+          Container(
+            height: 120,
+            decoration: BoxDecoration(
+              color: Colors.grey.shade300,
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+
+          SizedBox(height: 15),
+
+          Container(
+            height: 120,
+            decoration: BoxDecoration(
+              color: Colors.grey.shade300,
+              borderRadius: BorderRadius.circular(12),
+            ),
+          ),
+        ],
+      ),
+    ),
+  ),
+)
