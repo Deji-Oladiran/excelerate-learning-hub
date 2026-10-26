@@ -1,0 +1,63 @@
+Scaffold(
+  backgroundColor: const Color(0xFFF8F9FD),
+  body: Center(
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+
+            Column(
+              children: [
+
+                Container(width: 24,height: 3,color: Color(0xFFFF6A3D)),
+                SizedBox(height: 3),
+                Container(width: 34,height: 3,color: Color(0xFFFF6A3D)),
+                SizedBox(height: 3),
+                Container(width: 44,height: 3,color: Color(0xFFFF6A3D)),
+              ],
+            ),
+
+            SizedBox(width: 4),
+
+            Text(
+              "Excelerate",
+              style: TextStyle(
+                color: Color(0xFFE91E63),
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+              ),
+            ),
+          ],
+        ),
+
+        SizedBox(height: 40),
+
+        Icon(
+          Icons.error_outline,
+          color: Colors.red,
+          size: 90,
+        ),
+
+        SizedBox(height: 20),
+
+        Text(
+          "Unable to Load Programs",
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+
+        SizedBox(height: 15),
+
+        ElevatedButton(
+          onPressed: () {},
+          child: Text("Retry"),
+        ),
+      ],
+    ),
+  ),
+)
