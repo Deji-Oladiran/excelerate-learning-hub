@@ -1,0 +1,52 @@
+final ProgramService service =
+    ProgramService();
+
+FutureBuilder<List<Program>>(
+  future:
+      service.fetchPrograms(),
+
+  builder: (context, snapshot) {
+
+    if (snapshot.connectionState ==
+        ConnectionState.waiting) {
+
+      return const Center(
+        child:
+            CircularProgressIndicator(),
+      );
+    }
+
+    if (snapshot.hasError) {
+
+      return const Center(
+        child: Text(
+          'Unable to load programs.',
+        ),
+      );
+    }
+
+    final programs =
+        snapshot.data ?? [];
+
+    return ListView.builder(
+      itemCount: programs.length,
+
+      itemBuilder: (context, index) {
+
+        final program =
+            programs[index];
+
+        return Card(
+          child: ListTile(
+            title:
+                Text(program.title),
+
+            subtitle: Text(
+              program.scholarship,
+            ),
+          ),
+        );
+      },
+    );
+  },
+)
