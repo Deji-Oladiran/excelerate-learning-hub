@@ -1,0 +1,18 @@
+README Week 3 Update
+Features Implemented
+Dynamic Program Listing using JSON data
+Dynamic Program Details screen
+Built-in Flutter state management using setState()
+Feedback Form with validation
+Loading indicators and skeleton screens
+Error handling and retry functionality
+Updated Excelerate branding and user interface
+Learning Outcomes
+Connected Flutter screens to a mock JSON data source
+Implemented dynamic content rendering
+Managed application state with setState()
+Built validated forms and submission workflows
+Improved user experience through loading and error states
+Author
+Taiwo Jeje
+Team 4 - Excelerate Mobile App Development with Flutter Remote Internship
