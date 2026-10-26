@@ -1,0 +1,75 @@
+class ProgramDetailsScreen
+    extends StatelessWidget {
+
+  final Program program;
+
+  const ProgramDetailsScreen({
+    super.key,
+    required this.program,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          program.title,
+        ),
+      ),
+
+      body: Padding(
+        padding:
+            const EdgeInsets.all(16),
+
+        child: Column(
+          crossAxisAlignment:
+              CrossAxisAlignment.start,
+
+          children: [
+
+            Text(
+              program.description,
+            ),
+
+            const SizedBox(
+              height: 20,
+            ),
+
+            Text(
+                'Duration: ${program.duration}'),
+
+            Text(
+              'Scholarship: ${program.scholarship}',
+            ),
+
+            const SizedBox(
+              height: 20,
+            ),
+
+            const Text(
+              'Skills',
+              style: TextStyle(
+                fontWeight:
+                    FontWeight.bold,
+              ),
+            ),
+
+            Wrap(
+              spacing: 8,
+
+              children: program.skills
+                  .map(
+                    (skill) => Chip(
+                      label:
+                          Text(skill),
+                    ),
+                  )
+                  .toList(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
