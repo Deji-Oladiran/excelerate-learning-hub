@@ -1,0 +1,29 @@
+Text(
+  "Digital Strategy Associate Internship",
+  style: TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+  ),
+),
+
+SizedBox(height: 20),
+
+Text(
+  "Develop practical digital strategy skills through real-world projects.",
+),
+
+SizedBox(height: 20),
+
+Text(
+  "Duration: 6 Weeks",
+),
+
+SizedBox(height: 10),
+
+Text(
+  "Scholarship: \$1,000",
+  style: TextStyle(
+    color: Color(0xFFE91E63),
+    fontWeight: FontWeight.bold,
+  ),
+),
