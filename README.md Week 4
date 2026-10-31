@@ -1,0 +1,175 @@
+Excelerate Learning Hub
+A Flutter mobile application developed during the Excelerate Mobile App Development with Flutter Virtual Internship.
+
+Project Overview
+Excelerate Learning Hub is a mobile application designed to help learners discover opportunities, access program information, and provide feedback through an intuitive and user-friendly platform.
+
+The project was developed across four weeks and evolved from low-fidelity wireframes into a functional Flutter application featuring navigation, dynamic data integration, state management, validation, loading indicators, and error handling.
+
+The goal was to create a responsive mobile experience that simplifies opportunity discovery while demonstrating real-world Flutter development practices.
+
+Project Objectives
+Provide learners with easy access to opportunities and announcements.
+Present program information through dynamic content.
+Support user engagement through feedback collection.
+Demonstrate Flutter development concepts including state management and data handling.
+Build a portfolio-ready mobile application.
+Features
+Authentication
+Login Screen
+User-friendly welcome interface
+Dashboard
+Home Dashboard
+Key statistics and opportunities overview
+Consistent Excelerate branding
+Program Management
+Dynamic Program Listing
+Program Details Screen
+JSON-based data integration
+Program Model and Program Service implementation
+Feedback System
+Feedback Form
+Validation rules
+Submission workflow
+Success confirmation
+User Experience
+Loading indicators
+Skeleton loading screens
+Error handling
+Retry functionality
+Responsive layouts
+Technologies Used
+Flutter
+Dart
+JSON
+Material Design
+State Management using setState()
+Application Screens
+Splash Screen
+Login Screen
+Home Dashboard
+Achievements Dashboard
+Program Listing Screen
+Program Details Screen
+Feedback Form
+Loading State Screen
+Validation State Screen
+Success Submission Screen
+Error & Retry Screen
+Project Structure
+lib/
+├── models/
+│   └── program.dart
+│
+├── services/
+│   └── program_service.dart
+│
+├── screens/
+│   ├── login_screen.dart
+│   ├── home_dashboard.dart
+│   ├── program_listing.dart
+│   ├── program_details.dart
+│   └── feedback_form.dart
+│
+└── main.dart
+
+assets/
+└── programs.json
+Setup Instructions
+Prerequisites
+Flutter SDK
+Android Studio or VS Code
+Android Emulator or Physical Device
+Installation
+
+Clone the repository:
+git clone https://github.com/YOUR-USERNAME/excelerate-learning-hub.git
+Navigate to the project folder:
+cd excelerate-learning-hub
+Install dependencies:
+flutter pub get
+Run the application:
+flutter run
+Screenshots
+Login Screen
+
+(Add Screenshot)
+
+Home Dashboard
+
+(Add Screenshot)
+
+Program Listing
+
+(Add Screenshot)
+
+Program Details
+
+(Add Screenshot)
+
+Feedback Form
+
+(Add Screenshot)
+
+Loading State
+
+(Add Screenshot)
+
+Success Submission
+
+(Add Screenshot)
+
+Internship Journey
+Week 1
+Flutter environment setup
+Research and planning
+Wireframe creation
+Project structure preparation
+Week 2
+UI implementation
+Navigation setup
+Dashboard development
+Screen design
+Week 3
+Dynamic JSON integration
+Program Model creation
+Program Service implementation
+Form validation
+Loading indicators
+Error handling
+Week 4
+Application refinement
+UI/UX improvements
+Testing and bug fixing
+Documentation updates
+Final presentation preparation
+Challenges and Lessons Learned
+
+One of the most valuable lessons from this internship was understanding how Flutter applications transition from static interfaces to dynamic and interactive experiences. Working with JSON data, state management, form validation, and user feedback mechanisms strengthened both my technical and problem-solving skills.
+
+This project also reinforced the importance of debugging, testing, documentation, and building applications with the end user in mind.
+
+Future Improvements
+Real API integration
+Secure user authentication
+User profiles
+Push notifications
+Cloud database support
+Program registration functionality
+Author
+
+Taiwo Jeje, Obed Yakpa and Benjamin Obeng.
+
+Team 4
+
+Excelerate Mobile App Development with Flutter Virtual Internship
+
+This update represents the final version of the Excelerate Learning Hub developed during the Excelerate Mobile App Development with Flutter Virtual Internship.
+
+The application was refined and completed with all required functionality, including a Login Screen, Home Dashboard, Program Listing Screen, Program Details Screen, and Feedback Form. Dynamic data integration was implemented using a Program Model, Program Service, and JSON data source to simulate real-world API interactions.
+
+Additional improvements include state management using Flutter's built-in setState(), loading indicators, skeleton loading screens, form validation, success confirmation messages, error handling, and retry functionality. Consistent Excelerate branding was applied across all screens to provide a unified and professional user experience.
+
+The repository documentation was also updated with a comprehensive README containing a project overview, features, technologies used, setup instructions, screenshots, changelog, and internship journey summary.
+
+This final release demonstrates key Flutter development concepts such as UI design, navigation, dynamic data handling, user input validation, state management, testing, debugging, documentation, and project presentation. The project serves as a portfolio-ready mobile application and reflects the technical and professional growth achieved throughout the internship.
